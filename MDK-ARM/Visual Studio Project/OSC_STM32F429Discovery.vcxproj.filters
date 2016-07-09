@@ -1,0 +1,2222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{f9a08440-f057-4c05-bac2-94f2f06a7dd1}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{43df3266-a1ca-42f0-a985-2c88bf4a3e30}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="项目说明">
+      <UniqueIdentifier>{712da4e7-4620-4ed6-9a58-01e494da7819}</UniqueIdentifier>
+      <Extensions>txt</Extensions>
+    </Filter>
+    <Filter Include="源文件\Application/User">
+      <UniqueIdentifier>{52df8434-08e6-4050-8008-8f671143f64e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Drivers/STM32F4xx_HAL_Driver">
+      <UniqueIdentifier>{e6347d9a-2bab-4502-acd4-f2ab8fe3d0fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Drivers/CMSIS">
+      <UniqueIdentifier>{380606ac-757e-4ed2-98f1-5ea5d4e2534e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Application/MDK-ARM">
+      <UniqueIdentifier>{553372a2-b129-416f-986d-8f49659e5937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ESP_LCD">
+      <UniqueIdentifier>{6c0942c8-e1cb-4bf8-81a7-47a677fb16be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BSP_LCD">
+      <UniqueIdentifier>{993c4c1c-0abf-4416-bdc2-f9ab5c776bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\HARDWARE">
+      <UniqueIdentifier>{75281fac-99fd-4ca3-910e-dc8031b50d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SOFTWARE">
+      <UniqueIdentifier>{966b897b-02f0-4b14-ae5e-f95df86678e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ENWIN">
+      <UniqueIdentifier>{9dd2a375-03cf-4fc4-8017-7284149f342b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GUI">
+      <UniqueIdentifier>{1997ffc3-d239-4b0a-af58-cef404ab053d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\STM32F429I-Discovery_BSP">
+      <UniqueIdentifier>{7e98f880-8f92-46b8-9fe1-8b6b30029e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\::CMSIS">
+      <UniqueIdentifier>{62033f2e-17a6-4ab8-8f91-2ee58b929361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\emWinSource">
+      <UniqueIdentifier>{d3dd0f13-eae4-4953-afe7-ccc65dccb851}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Src\stm32f4xx_it.c">
+      <Filter>源文件\Application/User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\main.c">
+      <Filter>源文件\Application/User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\stm32f4xx_hal_msp.c">
+      <Filter>源文件\Application/User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c">
+      <Filter>源文件\Drivers/STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c">
+      <Filter>源文件\Drivers/CMSIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\LCD_MD050SD\LCD_MD050SD.c">
+      <Filter>源文件\ESP_LCD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\LCD_MD050SD\LCD_MD050SD_Graph.c">
+      <Filter>源文件\ESP_LCD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\LCD_MD050SD\LCD_MD050SD_Touch.c">
+      <Filter>源文件\ESP_LCD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\LCD_ILI9341\LCD_ILI9341.c">
+      <Filter>源文件\BSP_LCD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\LCD_ILI9341\LCD_ILI9341_Graph.c">
+      <Filter>源文件\BSP_LCD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\LCD_ILI9341\LCD_ILI9341_Touch.c">
+      <Filter>源文件\BSP_LCD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\ADC.c">
+      <Filter>源文件\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\Key.c">
+      <Filter>源文件\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\mSPI.c">
+      <Filter>源文件\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\sys.c">
+      <Filter>源文件\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\System.c">
+      <Filter>源文件\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SOFTWARE\DebugSupport.c">
+      <Filter>源文件\SOFTWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SOFTWARE\FFT.c">
+      <Filter>源文件\SOFTWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SOFTWARE\FSM.c">
+      <Filter>源文件\SOFTWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SOFTWARE\OSC_Work.c">
+      <Filter>源文件\SOFTWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SOFTWARE\Usual.c">
+      <Filter>源文件\SOFTWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENWIN\emWin_Config\GUI_X.c">
+      <Filter>源文件\ENWIN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENWIN\emWin_Config\GUI_X_Touch_Analog.c">
+      <Filter>源文件\ENWIN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENWIN\emWin_Config\GUIConf.c">
+      <Filter>源文件\ENWIN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENWIN\emWin_Config\LCDConf_FlexColor_Template.c">
+      <Filter>源文件\ENWIN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SOFTWARE\GUI\GUIDisp.c">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SOFTWARE\GUI\GUIDraw.c">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SOFTWARE\GUI\GUIUsual.c">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\STM32F429I-Discovery_BSP\calibration.c">
+      <Filter>源文件\STM32F429I-Discovery_BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\STM32F429I-Discovery_BSP\stm32f429i_discovery.c">
+      <Filter>源文件\STM32F429I-Discovery_BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\STM32F429I-Discovery_BSP\stm32f429i_discovery_io.c">
+      <Filter>源文件\STM32F429I-Discovery_BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\STM32F429I-Discovery_BSP\stm32f429i_discovery_ts.c">
+      <Filter>源文件\STM32F429I-Discovery_BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENWIN\emWin_Config\GUIDRV_Template_ESP.c">
+      <Filter>源文件\ENWIN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENWIN\emWin_Config\GUIDRV_Template_BSP.c">
+      <Filter>源文件\ENWIN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SOFTWARE\GUI\GUINumPad.c">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BUTTON.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BUTTON__SetBitmapObj.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BUTTON_Bitmap.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BUTTON_BMP.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BUTTON_Create.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BUTTON_CreateIndirect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BUTTON_Default.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BUTTON_Get.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BUTTON_IsPressed.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BUTTON_SelfDraw.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BUTTON_SetTextAlign.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BUTTON_StreamedBitmap.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CHECKBOX.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CHECKBOX_Create.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CHECKBOX_CreateIndirect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CHECKBOX_Default.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CHECKBOX_GetState.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CHECKBOX_Image.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CHECKBOX_IsChecked.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CHECKBOX_SetBkColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CHECKBOX_SetDefaultImage.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CHECKBOX_SetFont.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CHECKBOX_SetImage.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CHECKBOX_SetNumStates.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CHECKBOX_SetSpacing.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CHECKBOX_SetState.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CHECKBOX_SetText.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CHECKBOX_SetTextAlign.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CHECKBOX_SetTextColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DIALOG.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DROPDOWN.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DROPDOWN_Create.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DROPDOWN_CreateIndirect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DROPDOWN_DeleteItem.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DROPDOWN_InsertString.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DROPDOWN_ItemSpacing.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DROPDOWN_SetAutoScroll.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DROPDOWN_SetTextAlign.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DROPDOWN_SetTextHeight.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EDIT.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EDIT_Create.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EDIT_CreateIndirect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EDIT_Default.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EDIT_GetNumChars.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EDIT_SetCursorAtChar.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EDIT_SetInsertMode.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EDIT_SetpfAddKeyEx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EDIT_SetpfUpdateBuffer.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EDIT_SetSel.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EDITBin.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EDITDec.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EDITFloat.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EDITHex.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN__UpdateButtons.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN_AddMenu.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN_Button.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN_ButtonClose.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN_ButtonMax.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN_ButtonMin.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN_Create.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN_CreateIndirect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN_Default.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN_Get.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN_IsMinMax.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN_MinMaxRest.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN_SetBorderSize.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN_SetColors.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN_SetFont.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN_SetResizeable.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN_SetTitleHeight.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FRAMEWIN_SetTitleVis.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI__AddSpaceHex.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI__CalcTextRect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI__DivideRound.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI__DivideRound32.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI__GetFontSizeY.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI__GetNumChars.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI__HandleEOLine.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI__IntersectRect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI__IntersectRects.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI__memset.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI__memset16.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI__Read.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI__ReduceRect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI__SetText.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI__strcmp.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI__strlen.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI__Wrap.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_AddBin.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_AddDec.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_AddDecMin.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_AddDecShift.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_AddHex.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_AddKeyMsgHook.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_ALLOC_AllocInit.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_ALLOC_AllocZero.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_ARRAY.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_ARRAY_DeleteItem.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_ARRAY_InsertItem.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_ARRAY_ResizeItem.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_BMP.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_BMP_Serialize.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CalcColorDist.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_ClearRectEx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_Color2VisColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorArrowL.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorArrowLI.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorArrowLPx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorArrowM.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorArrowMI.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorArrowMPx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorArrowS.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorArrowSI.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorArrowSPx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorCrossL.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorCrossLI.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorCrossLPx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorCrossM.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorCrossMI.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorCrossMPx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorCrossS.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorCrossSI.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorCrossSPx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorHeaderM.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorHeaderMI.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorHeaderMPx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorPal.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_CursorPalI.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DispBin.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DispCEOL.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DispChar.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DispChars.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DispHex.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DispString.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DispStringAt.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DispStringAtCEOL.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DispStringHCenter.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DispStringInRect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DispStringInRectEx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DispStringInRectMax.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DispStringLen.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DRAW.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DRAW_BITMAP.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DRAW_BMP.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DRAW_Self.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DRAW_STREAMED.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DrawBitmap.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DrawBitmapEx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DrawBitmapExp.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DrawBitmapMag.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DrawFocusRect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DrawGraph.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DrawHLine.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DrawPie.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DrawPixel.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DrawPolyline.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DrawRectEx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_DrawVLine.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_EditBin.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_EditDec.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_EditFloat.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_EditHex.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_EditString.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_ErrorOut.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_Exec.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_FillPolygon.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_FillRect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_FillRectEx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_GetBitmapPixelColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_GetBitmapPixelIndex.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_GetClientRect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_GetColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_GetDispPos.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_GetFont.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_GetFontInfo.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_GetFontSizeY.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_GetLineStyle.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_GetStringDistX.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_GetTextAlign.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_GetTextExtend.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_GetTextMode.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_GetVersionString.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_GetYSizeOfFont.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_Goto.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_HOOK.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_InitLUT.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_InvertRect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_IsInFont.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_Log.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_MergeRect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_MOUSE.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_MOUSE_DriverPS2.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_MoveRect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_OnKey.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_Pen.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_PID.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_RectsIntersect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SaveContext.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SelectLayer.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SelectLCD.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SetColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SetColorIndex.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SetDecChar.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SetDefault.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SetDrawMode.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SetFont.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SetLBorder.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SetLineStyle.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SetLUTColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SetLUTColorEx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SetLUTEntry.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SetOrg.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SetPixelIndex.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SetTextAlign.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SetTextMode.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SetTextStyle.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SIF.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_SIF_Prop.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_TOUCH.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_TOUCH_DriverAnalog.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_TOUCH_StoreState.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_TOUCH_StoreUnstable.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_UC.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_UC_DispString.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_UC_EncodeNone.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_UC_EncodeUTF8.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_WaitEvent.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_WaitKey.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI_Warn.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUI2DLib.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIAAArc.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIAAChar.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIAAChar2.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIAAChar4.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIAACircle.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIAALib.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIAALine.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIAAPoly.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIAAPolyOut.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIAlloc.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIArc.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIChar.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUICharLine.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUICharM.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUICharP.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUICirc.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIColor2Index.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUICore.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUICurs.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_1.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_8.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_16.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_AA.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_Auto.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_Banding.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_Clear.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_CmpWithLCD.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_CopyFromLCD.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_CreateFixed.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_GetDataPtr.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_GetXSize.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_GetYSize.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_Measure.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_ReduceYSize.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_SetOrg.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_Usage.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_UsageBM.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_Write.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_WriteAlpha.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_WriteEx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIDEV_XY2PTR.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIEncJS.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIIndex2Color.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIPolyE.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIPolyM.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIPolyR.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIRealloc.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIStream.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUITask.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUITime.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUITimer.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIUC0.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIVal.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GUIValf.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HEADER.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HEADER__SetDrawObj.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HEADER_Bitmap.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HEADER_BMP.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HEADER_Create.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HEADER_CreateIndirect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HEADER_StreamedBitmap.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_1.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_2.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_3.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_4.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_API.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_DrawBitmap_565.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_DrawBitmap_M565.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_DrawVLine.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_GetColorIndex.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_GetEx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_GetNumDisplays.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_GetPixelColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_Index2ColorEx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_L0_Generic.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_Mirror.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_MixColors256.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_Rotate180.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_RotateCCW.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_RotateCW.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_SelectLCD.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_SetAPI.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_SetClipRectEx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCD_UpdateColorIndices.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDAA.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDGetP.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDInfo.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDInfo0.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDInfo1.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDL0Delta.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDL0Mag.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP0.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP1.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP2.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP4.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP111.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP222.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP233.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP323.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP332.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP444_12.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP444_12_1.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP444_16.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP555.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP556.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP565.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP565_Index2Color.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP655.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP8666.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDP8666_1.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDPM233.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDPM323.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDPM332.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDPM444_12.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDPM444_16.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDPM555.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDPM556.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDPM565.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDPM565_Index2Color.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDPM655.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDRLE4.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDRLE8.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_Create.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_CreateIndirect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_Default.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_DeleteItem.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_Font.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_GetItemText.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_GetNumItems.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_InsertString.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_ItemDisabled.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_ItemSpacing.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_MultiSel.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_ScrollStep.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_SetAutoScroll.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_SetBkColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_SetOwner.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_SetOwnerDraw.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_SetScrollbarWidth.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_SetString.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTBOX_SetTextColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_Create.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_CreateIndirect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_Default.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_DeleteColumn.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_DeleteRow.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_GetBkColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_GetFont.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_GetHeader.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_GetNumColumns.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_GetNumRows.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_GetSel.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_GetTextColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_SetBkColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_SetColumnWidth.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_SetFont.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_SetGridVis.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_SetItemColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_SetItemText.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_SetLBorder.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_SetRBorder.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_SetRowHeight.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_SetSel.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_SetTextAlign.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LISTVIEW_SetTextColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU__FindItem.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU_Attach.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU_CreateIndirect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU_Default.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU_DeleteItem.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU_DisableItem.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU_EnableItem.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU_GetItem.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU_GetItemText.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU_GetNumItems.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU_InsertItem.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU_Popup.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU_SetBkColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU_SetBorderSize.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU_SetFont.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU_SetItem.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MENU_SetTextColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MESSAGEBOX.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MULTIEDIT.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MULTIEDIT_Create.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MULTIEDIT_CreateIndirect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MULTIPAGE.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MULTIPAGE_Create.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MULTIPAGE_CreateIndirect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MULTIPAGE_Default.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PROGBAR.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PROGBAR_Create.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PROGBAR_CreateIndirect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RADIO.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RADIO_Create.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RADIO_CreateIndirect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RADIO_Default.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RADIO_Image.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RADIO_SetBkColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RADIO_SetDefaultImage.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RADIO_SetFont.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RADIO_SetGroupId.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RADIO_SetImage.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RADIO_SetText.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RADIO_SetTextColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SCROLLBAR.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SCROLLBAR_Create.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SCROLLBAR_CreateIndirect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SCROLLBAR_Defaults.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SCROLLBAR_GetValue.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SCROLLBAR_SetWidth.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SLIDER.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SLIDER_Create.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SLIDER_CreateIndirect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TEXT.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TEXT_Create.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TEXT_CreateIndirect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TEXT_SetBkColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TEXT_SetFont.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TEXT_SetText.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TEXT_SetTextAlign.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TEXT_SetTextColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WIDGET.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WIDGET_Effect_3D.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WIDGET_Effect_3D1L.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WIDGET_Effect_3D2L.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WIDGET_Effect_None.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WIDGET_Effect_Simple.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WIDGET_FillStringInRect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WIDGET_SetEffect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WIDGET_SetWidth.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WINDOW.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WINDOW_Default.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM__ForEachDesc.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM__GetFirstSibling.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM__GetFocussedChild.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM__GetLastSibling.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM__GetOrg_AA.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM__GetPrevSibling.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM__IsAncestor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM__IsChild.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM__IsEnabled.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM__NotifyVisChanged.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM__Screen2Client.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM__SendMessage.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM__SendMessageIfEnabled.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM__SendMessageNoPara.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM__UpdateChildPositions.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_AttachWindow.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_BringToBottom.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_BringToTop.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_Broadcast.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_CheckScrollPos.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_CriticalHandle.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_DIAG.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_EnableWindow.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_ForEachDesc.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetBkColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetClientRect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetClientWindow.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetDesktopWindow.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetDesktopWindowEx.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetDiagInfo.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetDialogItem.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetFirstChild.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetFlags.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetFocussedWindow.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetId.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetInsideRect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetInsideRectExScrollbar.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetInvalidRect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetNextSibling.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetOrg.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetParent.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetPrevSibling.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetScrollbar.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetScrollPartner.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetScrollState.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetWindowRect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_GetWindowSize.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_HasCaptured.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_HasFocus.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_Hide.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_IsCompletelyVisible.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_IsEnabled.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_IsFocussable.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_IsVisible.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_IsWindow.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_MakeModal.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_Move.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_MoveChildTo.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_NotifyParent.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_OnKey.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_Paint.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_PID__GetPrevState.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_ResizeWindow.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_Screen2Win.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SendMessageNoPara.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SendToParent.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetAnchor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetCallback.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetCapture.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetCaptureMove.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetCreateFlags.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetDesktopColor.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetFocus.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetFocusOnNextChild.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetFocusOnPrevChild.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetId.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetpfPollPID.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetScrollbar.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetScrollState.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetSize.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetTrans.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetTransState.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetUserClipRect.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetXSize.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_SetYSize.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_Show.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_StayOnTop.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_Timer.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_TimerExternal.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_UserData.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_Validate.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WM_ValidateWindow.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WMMemDev.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WMTouch.c">
+      <Filter>源文件\emWinSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SOFTWARE\GUI\__UserGUI.c">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Keil_v5\ARM\ARMCC\include\stdint.h">
+      <Filter>源文件\Application/User</Filter>
+    </None>
+    <None Include="C:\Keil_v5\ARM\Pack\Keil\STM32F4xx_DFP\2.8.0\Drivers\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib">
+      <Filter>源文件\Application/User</Filter>
+    </None>
+    <None Include="C:\Keil_v5\ARM\Pack\Keil\STM32F4xx_DFP\2.8.0\Drivers\CMSIS\Include\arm_math.h">
+      <Filter>源文件\Application/User</Filter>
+    </None>
+    <None Include="..\..\Src\main.h">
+      <Filter>源文件\Application/User</Filter>
+    </None>
+    <None Include="..\startup_stm32f429xx.s">
+      <Filter>源文件\Application/MDK-ARM</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\LCD_MD050SD\LCD_MD050SD.h">
+      <Filter>源文件\ESP_LCD</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\LCD_MD050SD\LCD_MD050SD_Graph.h">
+      <Filter>源文件\ESP_LCD</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\LCD_MD050SD\LCD_MD050SD_Touch.h">
+      <Filter>源文件\ESP_LCD</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\LCD_ILI9341\LCD_ILI9341.h">
+      <Filter>源文件\BSP_LCD</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\LCD_ILI9341\LCD_ILI9341_Graph.h">
+      <Filter>源文件\BSP_LCD</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\LCD_ILI9341\LCD_ILI9341_Touch.h">
+      <Filter>源文件\BSP_LCD</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\ADC.h">
+      <Filter>源文件\HARDWARE</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\Key.h">
+      <Filter>源文件\HARDWARE</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\mSPI.h">
+      <Filter>源文件\HARDWARE</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\sys.h">
+      <Filter>源文件\HARDWARE</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\System.h">
+      <Filter>源文件\HARDWARE</Filter>
+    </None>
+    <None Include="..\..\SOFTWARE\DebugSupport.h">
+      <Filter>源文件\SOFTWARE</Filter>
+    </None>
+    <None Include="..\..\SOFTWARE\FFT.h">
+      <Filter>源文件\SOFTWARE</Filter>
+    </None>
+    <None Include="..\..\SOFTWARE\FSM.h">
+      <Filter>源文件\SOFTWARE</Filter>
+    </None>
+    <None Include="..\..\SOFTWARE\OSC_Work.h">
+      <Filter>源文件\SOFTWARE</Filter>
+    </None>
+    <None Include="..\..\SOFTWARE\Usual.h">
+      <Filter>源文件\SOFTWARE</Filter>
+    </None>
+    <None Include="..\..\ENWIN\emWin_Config\GUIConf.h">
+      <Filter>源文件\ENWIN</Filter>
+    </None>
+    <None Include="..\..\ENWIN\emWin_Config\LCDConf.h">
+      <Filter>源文件\ENWIN</Filter>
+    </None>
+    <None Include="..\..\ENWIN\emWin_Config\LCDConf_FlexColor_Template.h">
+      <Filter>源文件\ENWIN</Filter>
+    </None>
+    <None Include="..\..\ENWIN\emWin_Lib\STemWin522_CM4_Keil.lib">
+      <Filter>源文件\ENWIN</Filter>
+    </None>
+    <None Include="..\..\SOFTWARE\GUI\GUIDefine.h">
+      <Filter>源文件\GUI</Filter>
+    </None>
+    <None Include="..\..\SOFTWARE\GUI\GUIDisp.h">
+      <Filter>源文件\GUI</Filter>
+    </None>
+    <None Include="..\..\SOFTWARE\GUI\GUIDraw.h">
+      <Filter>源文件\GUI</Filter>
+    </None>
+    <None Include="..\..\SOFTWARE\GUI\GUIUsual.h">
+      <Filter>源文件\GUI</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\STM32F429I-Discovery_BSP\calibration.h">
+      <Filter>源文件\STM32F429I-Discovery_BSP</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\STM32F429I-Discovery_BSP\io.h">
+      <Filter>源文件\STM32F429I-Discovery_BSP</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\STM32F429I-Discovery_BSP\stm32f429i_discovery.h">
+      <Filter>源文件\STM32F429I-Discovery_BSP</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\STM32F429I-Discovery_BSP\stm32f429i_discovery_io.h">
+      <Filter>源文件\STM32F429I-Discovery_BSP</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\STM32F429I-Discovery_BSP\stm32f429i_discovery_ts.h">
+      <Filter>源文件\STM32F429I-Discovery_BSP</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\STM32F429I-Discovery_BSP\ts.h">
+      <Filter>源文件\STM32F429I-Discovery_BSP</Filter>
+    </None>
+    <None Include="Readme.txt">
+      <Filter>项目说明</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ENWIN\emWin_Config\GUIDRV_Template_ESP.h">
+      <Filter>源文件\ENWIN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENWIN\emWin_Config\GUIDRV_Template_BSP.h">
+      <Filter>源文件\ENWIN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SOFTWARE\GUI\GUINumPad.h">
+      <Filter>源文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BUTTON.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BUTTON_Private.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CHECKBOX.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CHECKBOX_Private.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DIALOG.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DIALOG_Intern.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DROPDOWN.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DROPDOWN_Private.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EDIT.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EDIT_Private.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\FRAMEWIN.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\FRAMEWIN_Private.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GUI.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GUI_ARRAY.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GUI_ConfDefaults.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GUI_FontIntern.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GUI_HOOK.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GUI_Private.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GUI_Protected.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GUI_VNC.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GUI_X.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GUIDebug.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GUIType.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GUIVersion.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\HEADER.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\HEADER_Private.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LCD.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LCD_ConfDefaults.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LCD_IncludeDriver.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LCD_Private.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LCD_Protected.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LCDSIM.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LISTBOX.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LISTBOX_Private.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LISTVIEW.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LISTVIEW_Private.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MENU.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MENU_Private.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MESSAGEBOX.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MULTIEDIT.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MULTIPAGE.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MULTIPAGE_Private.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PROGBAR.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RADIO.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RADIO_Private.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SCROLLBAR.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SCROLLBAR_Private.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SLIDER.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TEXT.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TEXT_Private.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WIDGET.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WINDOW_Private.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WM.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WM_GUI.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WM_Intern.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WM_Intern_ConfDep.h">
+      <Filter>源文件\emWinSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SOFTWARE\GUI\__UserGUI.h">
+      <Filter>源文件\GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

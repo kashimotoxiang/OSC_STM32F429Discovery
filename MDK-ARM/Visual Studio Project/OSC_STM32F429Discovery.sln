@@ -1,0 +1,18 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OSC_STM32F429Discovery", "OSC_STM32F429Discovery.vcxproj", "{41982A4E-4F0D-4C83-B50F-E513D3234E70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		OSC_STM32F429Discovery|Win32 = OSC_STM32F429Discovery|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41982A4E-4F0D-4C83-B50F-E513D3234E70}.OSC_STM32F429Discovery|Win32.ActiveCfg = OSC_STM32F429Discovery|Win32
+		{41982A4E-4F0D-4C83-B50F-E513D3234E70}.OSC_STM32F429Discovery|Win32.Build.0 = OSC_STM32F429Discovery|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
