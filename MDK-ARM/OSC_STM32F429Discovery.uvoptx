@@ -191,34 +191,18 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>307</LineNumber>
+          <LineNumber>36</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134268408</Address>
+          <Address>134230524</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>D:\Documents\workspace\stm32浠ｇ爜\OSC_STM32F429Discovery\SOFTWARE\GUI\GUINumPad.c</Filename>
+          <Filename>D:\Documents\workspace\stm32浠ｇ爜\OSC_STM32F429Discovery\HARDWARE\LCD_MD050SD\LCD_MD050SD.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\OSC_STM32F429Discovery\../SOFTWARE/GUI/GUINumPad.c\307</Expression>
-        </Bp>
-        <Bp>
-          <Number>1</Number>
-          <Type>0</Type>
-          <LineNumber>397</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134228410</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>D:\Documents\workspace\stm32浠ｇ爜\OSC_STM32F429Discovery\HARDWARE\LCD_MD050SD\LCD_MD050SD_Touch.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\OSC_STM32F429Discovery\../HARDWARE/LCD_MD050SD/LCD_MD050SD_Touch.c\397</Expression>
+          <Expression>\\OSC_STM32F429Discovery\../HARDWARE/LCD_MD050SD/LCD_MD050SD.c\36</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
@@ -286,6 +270,11 @@
           <count>12</count>
           <WinNumber>1</WinNumber>
           <ItemText>g_Disp</ItemText>
+        </Ww>
+        <Ww>
+          <count>13</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>Size</ItemText>
         </Ww>
       </WatchWindow1>
       <MemoryWindow1>
@@ -953,8 +942,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\HARDWARE\ADC.c</PathWithFileName>
-      <FilenameWithoutPath>ADC.c</FilenameWithoutPath>
+      <PathWithFileName>..\HARDWARE\System.c</PathWithFileName>
+      <FilenameWithoutPath>System.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -965,8 +954,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\HARDWARE\ADC.h</PathWithFileName>
-      <FilenameWithoutPath>ADC.h</FilenameWithoutPath>
+      <PathWithFileName>..\HARDWARE\System.h</PathWithFileName>
+      <FilenameWithoutPath>System.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -977,8 +966,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\HARDWARE\Key.c</PathWithFileName>
-      <FilenameWithoutPath>Key.c</FilenameWithoutPath>
+      <PathWithFileName>..\HARDWARE\myADC.c</PathWithFileName>
+      <FilenameWithoutPath>myADC.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -989,8 +978,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\HARDWARE\Key.h</PathWithFileName>
-      <FilenameWithoutPath>Key.h</FilenameWithoutPath>
+      <PathWithFileName>..\HARDWARE\myADC.h</PathWithFileName>
+      <FilenameWithoutPath>myADC.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1001,8 +990,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\HARDWARE\mSPI.c</PathWithFileName>
-      <FilenameWithoutPath>mSPI.c</FilenameWithoutPath>
+      <PathWithFileName>..\HARDWARE\myKey.c</PathWithFileName>
+      <FilenameWithoutPath>myKey.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1013,8 +1002,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\HARDWARE\mSPI.h</PathWithFileName>
-      <FilenameWithoutPath>mSPI.h</FilenameWithoutPath>
+      <PathWithFileName>..\HARDWARE\myKey.h</PathWithFileName>
+      <FilenameWithoutPath>myKey.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1025,8 +1014,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\HARDWARE\sys.c</PathWithFileName>
-      <FilenameWithoutPath>sys.c</FilenameWithoutPath>
+      <PathWithFileName>..\HARDWARE\mySPI.c</PathWithFileName>
+      <FilenameWithoutPath>mySPI.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1037,8 +1026,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\HARDWARE\sys.h</PathWithFileName>
-      <FilenameWithoutPath>sys.h</FilenameWithoutPath>
+      <PathWithFileName>..\HARDWARE\mySPI.h</PathWithFileName>
+      <FilenameWithoutPath>mySPI.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1049,8 +1038,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\HARDWARE\System.c</PathWithFileName>
-      <FilenameWithoutPath>System.c</FilenameWithoutPath>
+      <PathWithFileName>..\HARDWARE\myUART.c</PathWithFileName>
+      <FilenameWithoutPath>myUART.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1061,8 +1050,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\HARDWARE\System.h</PathWithFileName>
-      <FilenameWithoutPath>System.h</FilenameWithoutPath>
+      <PathWithFileName>..\HARDWARE\myUART.h</PathWithFileName>
+      <FilenameWithoutPath>myUART.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1070,7 +1059,7 @@
 
   <Group>
     <GroupName>SOFTWARE</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -1385,30 +1374,6 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\SOFTWARE\GUI\GUIDisp.c</PathWithFileName>
-      <FilenameWithoutPath>GUIDisp.c</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>10</GroupNumber>
-      <FileNumber>82</FileNumber>
-      <FileType>5</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>..\SOFTWARE\GUI\GUIDisp.h</PathWithFileName>
-      <FilenameWithoutPath>GUIDisp.h</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>10</GroupNumber>
-      <FileNumber>83</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
       <PathWithFileName>..\SOFTWARE\GUI\GUIDraw.c</PathWithFileName>
       <FilenameWithoutPath>GUIDraw.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
@@ -1416,7 +1381,7 @@
     </File>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>84</FileNumber>
+      <FileNumber>82</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -1428,7 +1393,7 @@
     </File>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>85</FileNumber>
+      <FileNumber>83</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -1440,7 +1405,7 @@
     </File>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>86</FileNumber>
+      <FileNumber>84</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -1452,7 +1417,7 @@
     </File>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>87</FileNumber>
+      <FileNumber>85</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -1464,7 +1429,7 @@
     </File>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>88</FileNumber>
+      <FileNumber>86</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -1476,7 +1441,7 @@
     </File>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>89</FileNumber>
+      <FileNumber>87</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -1488,13 +1453,37 @@
     </File>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>90</FileNumber>
+      <FileNumber>88</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\SOFTWARE\GUI\__UserGUI.h</PathWithFileName>
       <FilenameWithoutPath>__UserGUI.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>10</GroupNumber>
+      <FileNumber>89</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\SOFTWARE\GUI\GUIGraph.c</PathWithFileName>
+      <FilenameWithoutPath>GUIGraph.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>10</GroupNumber>
+      <FileNumber>90</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\SOFTWARE\GUI\GUIGraph.h</PathWithFileName>
+      <FilenameWithoutPath>GUIGraph.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

@@ -49,17 +49,20 @@ DAC_HandleTypeDef hdac;
 I2C_HandleTypeDef hi2c3;
 
 SPI_HandleTypeDef hspi1;
+SPI_HandleTypeDef hspi3;
 SPI_HandleTypeDef hspi5;
 DMA_HandleTypeDef hdma_spi1_rx;
 DMA_HandleTypeDef hdma_spi1_tx;
 
-UART_HandleTypeDef huart6;
+UART_HandleTypeDef huart3;
 
 SRAM_HandleTypeDef hsram1;
 
 /* USER CODE BEGIN PV */
 
 /* Private variables ---------------------------------------------------------*/
+UART_TYPE RxBuff[1];
+/* Private Struct-------------------------------------------------------*/
 ADC_Conv_struct g_SamplData = {{0}};
 FSM_struct g_FSM = {eFSM_WorkS_Emp, eFSM_WorkS_Emp, eFSM_MainS_Emp, eFSM_MainS_Emp};
 OSC_struct g_OSCInfo = {eTrg_Mod_Centr, eSampl_Mod_DMA, eReslt_rat_0, 160, 0, 65535, 0, 0, 0, 0, 0, eClose};
@@ -82,8 +85,8 @@ static void MX_CRC_Init (void);
 static void MX_DAC_Init (void);
 static void MX_FMC_Init (void);
 static void MX_SPI1_Init (void);
-static void MX_I2C3_Init (void);
-static void MX_USART6_UART_Init (void);
+static void MX_SPI3_Init (void);
+static void MX_USART3_UART_Init (void);
 
 /* USER CODE BEGIN PFP */
 /* Private function prototypes -----------------------------------------------*/
@@ -117,13 +120,14 @@ int main (void) {
 	MX_DAC_Init();
 	MX_FMC_Init();
 	MX_SPI1_Init();
-	MX_I2C3_Init();
-	MX_USART6_UART_Init();
+	MX_SPI3_Init();
+	MX_USART3_UART_Init();
 
 	/* USER CODE BEGIN 2 */
 	System_Initial_OSC();
 	HAL_DAC_Start(&hdac, DAC_CHANNEL_2);
 	HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_R, 0x08f);
+
 	/* USER CODE END 2 */
 
 	/* Infinite loop */
@@ -132,7 +136,8 @@ int main (void) {
 		/* USER CODE END WHILE */
 
 		/* USER CODE BEGIN 3 */
-
+		FPGA_COM_SPISTART;
+		
 		FSM_OSC();
 		BSP_Background();
 	}
@@ -147,9 +152,9 @@ void SystemClock_Config (void) {
 	RCC_OscInitTypeDef RCC_OscInitStruct;
 	RCC_ClkInitTypeDef RCC_ClkInitStruct;
 
-	__HAL_RCC_PWR_CLK_ENABLE() ;
+	__HAL_RCC_PWR_CLK_ENABLE();
 
-	__HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1) ;
+	__HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
 
 	RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
 	RCC_OscInitStruct.HSEState = RCC_HSE_ON;
@@ -322,6 +327,27 @@ static void MX_SPI1_Init (void) {
 
 }
 
+/* SPI3 init function */
+static void MX_SPI3_Init (void) {
+
+	hspi3.Instance = SPI3;
+	hspi3.Init.Mode = SPI_MODE_MASTER;
+	hspi3.Init.Direction = SPI_DIRECTION_2LINES;
+	hspi3.Init.DataSize = SPI_DATASIZE_8BIT;
+	hspi3.Init.CLKPolarity = SPI_POLARITY_LOW;
+	hspi3.Init.CLKPhase = SPI_PHASE_1EDGE;
+	hspi3.Init.NSS = SPI_NSS_HARD_OUTPUT;
+	hspi3.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
+	hspi3.Init.FirstBit = SPI_FIRSTBIT_MSB;
+	hspi3.Init.TIMode = SPI_TIMODE_DISABLE;
+	hspi3.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
+	hspi3.Init.CRCPolynomial = 10;
+	if (HAL_SPI_Init(&hspi3) != HAL_OK) {
+		Error_Handler();
+	}
+
+}
+
 /* SPI5 init function */
 static void MX_SPI5_Init (void) {
 
@@ -343,18 +369,18 @@ static void MX_SPI5_Init (void) {
 
 }
 
-/* USART6 init function */
-static void MX_USART6_UART_Init (void) {
+/* USART3 init function */
+static void MX_USART3_UART_Init (void) {
 
-	huart6.Instance = USART6;
-	huart6.Init.BaudRate = 115200;
-	huart6.Init.WordLength = UART_WORDLENGTH_8B;
-	huart6.Init.StopBits = UART_STOPBITS_1;
-	huart6.Init.Parity = UART_PARITY_NONE;
-	huart6.Init.Mode = UART_MODE_TX_RX;
-	huart6.Init.HwFlowCtl = UART_HWCONTROL_NONE;
-	huart6.Init.OverSampling = UART_OVERSAMPLING_16;
-	if (HAL_UART_Init(&huart6) != HAL_OK) {
+	huart3.Instance = USART3;
+	huart3.Init.BaudRate = 115200;
+	huart3.Init.WordLength = UART_WORDLENGTH_8B;
+	huart3.Init.StopBits = UART_STOPBITS_1;
+	huart3.Init.Parity = UART_PARITY_NONE;
+	huart3.Init.Mode = UART_MODE_TX_RX;
+	huart3.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+	huart3.Init.OverSampling = UART_OVERSAMPLING_16;
+	if (HAL_UART_Init(&huart3) != HAL_OK) {
 		Error_Handler();
 	}
 
@@ -365,7 +391,7 @@ static void MX_USART6_UART_Init (void) {
   */
 static void MX_DMA_Init (void) {
 	/* DMA controller clock enable */
-	__HAL_RCC_DMA2_CLK_ENABLE() ;
+	__HAL_RCC_DMA2_CLK_ENABLE();
 
 	/* DMA interrupt init */
 	/* DMA2_Stream0_IRQn interrupt configuration */
@@ -406,7 +432,7 @@ static void MX_FMC_Init (void) {
 	hsram1.Init.PageSize = FMC_PAGE_SIZE_NONE;
 	/* Timing */
 	Timing.AddressSetupTime = 3;
-	Timing.AddressHoldTime = 2;
+	Timing.AddressHoldTime = 3;
 	Timing.DataSetupTime = 60;
 	Timing.BusTurnAroundDuration = 0;
 	Timing.CLKDivision = 0;
@@ -434,11 +460,11 @@ static void MX_GPIO_Init (void) {
 	/* GPIO Ports Clock Enable */
 	__HAL_RCC_GPIOE_CLK_ENABLE();
 	__HAL_RCC_GPIOF_CLK_ENABLE();
-	__HAL_RCC_GPIOH_CLK_ENABLE() ;
-	__HAL_RCC_GPIOC_CLK_ENABLE() ;
-	__HAL_RCC_GPIOA_CLK_ENABLE() ;
+	__HAL_RCC_GPIOH_CLK_ENABLE();
+	__HAL_RCC_GPIOC_CLK_ENABLE();
+	__HAL_RCC_GPIOA_CLK_ENABLE();
+	__HAL_RCC_GPIOB_CLK_ENABLE();
 	__HAL_RCC_GPIOD_CLK_ENABLE();
-	__HAL_RCC_GPIOB_CLK_ENABLE() ;
 
 	/*Configure GPIO pin Output Level */
 	HAL_GPIO_WritePin(GPIOE, Touch_DIN_Pin | Touch_CS_Pin | Touch_CLK_Pin | LCD_REST_Pin

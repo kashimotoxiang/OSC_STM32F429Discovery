@@ -156,18 +156,6 @@
     <ClCompile Include="..\..\HARDWARE\LCD_ILI9341\LCD_ILI9341_Touch.c">
       <Filter>源文件\BSP_LCD</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\HARDWARE\ADC.c">
-      <Filter>源文件\HARDWARE</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\HARDWARE\Key.c">
-      <Filter>源文件\HARDWARE</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\HARDWARE\mSPI.c">
-      <Filter>源文件\HARDWARE</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\HARDWARE\sys.c">
-      <Filter>源文件\HARDWARE</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\HARDWARE\System.c">
       <Filter>源文件\HARDWARE</Filter>
     </ClCompile>
@@ -197,9 +185,6 @@
     </ClCompile>
     <ClCompile Include="..\..\ENWIN\emWin_Config\LCDConf_FlexColor_Template.c">
       <Filter>源文件\ENWIN</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SOFTWARE\GUI\GUIDisp.c">
-      <Filter>源文件\GUI</Filter>
     </ClCompile>
     <ClCompile Include="..\..\SOFTWARE\GUI\GUIDraw.c">
       <Filter>源文件\GUI</Filter>
@@ -1926,6 +1911,21 @@
     <ClCompile Include="..\..\SOFTWARE\GUI\__UserGUI.c">
       <Filter>源文件\GUI</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\myADC.c">
+      <Filter>源文件\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\myKey.c">
+      <Filter>源文件\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\mySPI.c">
+      <Filter>源文件\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HARDWARE\myUART.c">
+      <Filter>源文件\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SOFTWARE\GUI\GUIGraph.c">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="C:\Keil_v5\ARM\ARMCC\include\stdint.h">
@@ -1961,18 +1961,6 @@
     <None Include="..\..\HARDWARE\LCD_ILI9341\LCD_ILI9341_Touch.h">
       <Filter>源文件\BSP_LCD</Filter>
     </None>
-    <None Include="..\..\HARDWARE\ADC.h">
-      <Filter>源文件\HARDWARE</Filter>
-    </None>
-    <None Include="..\..\HARDWARE\Key.h">
-      <Filter>源文件\HARDWARE</Filter>
-    </None>
-    <None Include="..\..\HARDWARE\mSPI.h">
-      <Filter>源文件\HARDWARE</Filter>
-    </None>
-    <None Include="..\..\HARDWARE\sys.h">
-      <Filter>源文件\HARDWARE</Filter>
-    </None>
     <None Include="..\..\HARDWARE\System.h">
       <Filter>源文件\HARDWARE</Filter>
     </None>
@@ -2006,9 +1994,6 @@
     <None Include="..\..\SOFTWARE\GUI\GUIDefine.h">
       <Filter>源文件\GUI</Filter>
     </None>
-    <None Include="..\..\SOFTWARE\GUI\GUIDisp.h">
-      <Filter>源文件\GUI</Filter>
-    </None>
     <None Include="..\..\SOFTWARE\GUI\GUIDraw.h">
       <Filter>源文件\GUI</Filter>
     </None>
@@ -2035,6 +2020,18 @@
     </None>
     <None Include="Readme.txt">
       <Filter>项目说明</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\myADC.h">
+      <Filter>源文件\HARDWARE</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\myKey.h">
+      <Filter>源文件\HARDWARE</Filter>
+    </None>
+    <None Include="..\..\HARDWARE\mySPI.h">
+      <Filter>源文件\HARDWARE</Filter>
+    </None>
+    <None Include="..\..\SOFTWARE\GUI\GUIGraph.h">
+      <Filter>源文件\GUI</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -2217,6 +2214,9 @@
     </ClInclude>
     <ClInclude Include="..\..\SOFTWARE\GUI\__UserGUI.h">
       <Filter>源文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HARDWARE\myUART.h">
+      <Filter>源文件\HARDWARE</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -28,7 +28,7 @@ typedef struct ResourceMap_struct {
 
 #include "main.h"
 #include "GUIUsual.h"
-#include "GUIDisp.h"
+#include "GUIGraph.h"
 #include "GUIDraw.h"
 #include "GUINumPad.h"
 #include "__UserGUI.h"

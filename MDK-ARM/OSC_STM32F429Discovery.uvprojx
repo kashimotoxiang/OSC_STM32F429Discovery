@@ -334,7 +334,7 @@
               <MiscControls>--C99</MiscControls>
               <Define>USE_HAL_DRIVER,STM32F429xx,__TARGET_FPU_VFP,ARM_MATH_MATRIX_CHECK,ARM_MATH_ROUNDING,ARM_MATH_CM4,__CC_ARM</Define>
               <Undefine></Undefine>
-              <IncludePath>../Inc;      ../Drivers/STM32F4xx_HAL_Driver/Inc;      ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;      ../Drivers/CMSIS/Include;      ../Drivers/CMSIS/Device/ST/STM32F4xx/Include;      ..\ENWIN;      ..\ENWIN\emWin_Config;      ..\ENWIN\emWin_Lib;      ..\HARDWARE;      ..\HARDWARE\LCD_MD050SD;      ..\SOFTWARE;      ..\SOFTWARE\GUI;      ..\Src;      C:\Keil_v5\ARM\ARMCC\include;      ..\ENWIN\inc;      ..\HARDWARE\LCD_ILI9341;      ..\HARDWARE\STM32F429I-Discovery_BSP</IncludePath>
+              <IncludePath>../Inc;       ../Drivers/STM32F4xx_HAL_Driver/Inc;       ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;       ../Drivers/CMSIS/Include;       ../Drivers/CMSIS/Device/ST/STM32F4xx/Include;       ..\ENWIN;       ..\ENWIN\emWin_Config;       ..\ENWIN\emWin_Lib;       ..\HARDWARE;       ..\HARDWARE\LCD_MD050SD;       ..\SOFTWARE;       ..\SOFTWARE\GUI;       ..\Src;       C:\Keil_v5\ARM\ARMCC\include;       ..\ENWIN\inc;       ..\HARDWARE\LCD_ILI9341;       ..\HARDWARE\STM32F429I-Discovery_BSP</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -638,46 +638,6 @@
           <GroupName>HARDWARE</GroupName>
           <Files>
             <File>
-              <FileName>ADC.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\ADC.c</FilePath>
-            </File>
-            <File>
-              <FileName>ADC.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\HARDWARE\ADC.h</FilePath>
-            </File>
-            <File>
-              <FileName>Key.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\Key.c</FilePath>
-            </File>
-            <File>
-              <FileName>Key.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\HARDWARE\Key.h</FilePath>
-            </File>
-            <File>
-              <FileName>mSPI.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\mSPI.c</FilePath>
-            </File>
-            <File>
-              <FileName>mSPI.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\HARDWARE\mSPI.h</FilePath>
-            </File>
-            <File>
-              <FileName>sys.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\sys.c</FilePath>
-            </File>
-            <File>
-              <FileName>sys.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\HARDWARE\sys.h</FilePath>
-            </File>
-            <File>
               <FileName>System.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\System.c</FilePath>
@@ -686,6 +646,46 @@
               <FileName>System.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\HARDWARE\System.h</FilePath>
+            </File>
+            <File>
+              <FileName>myADC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\myADC.c</FilePath>
+            </File>
+            <File>
+              <FileName>myADC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\myADC.h</FilePath>
+            </File>
+            <File>
+              <FileName>myKey.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\myKey.c</FilePath>
+            </File>
+            <File>
+              <FileName>myKey.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\myKey.h</FilePath>
+            </File>
+            <File>
+              <FileName>mySPI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\mySPI.c</FilePath>
+            </File>
+            <File>
+              <FileName>mySPI.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\mySPI.h</FilePath>
+            </File>
+            <File>
+              <FileName>myUART.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\myUART.c</FilePath>
+            </File>
+            <File>
+              <FileName>myUART.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\myUART.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -823,16 +823,6 @@
               <FilePath>..\SOFTWARE\GUI\GUIDefine.h</FilePath>
             </File>
             <File>
-              <FileName>GUIDisp.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\SOFTWARE\GUI\GUIDisp.c</FilePath>
-            </File>
-            <File>
-              <FileName>GUIDisp.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\SOFTWARE\GUI\GUIDisp.h</FilePath>
-            </File>
-            <File>
               <FileName>GUIDraw.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\SOFTWARE\GUI\GUIDraw.c</FilePath>
@@ -871,6 +861,16 @@
               <FileName>__UserGUI.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\SOFTWARE\GUI\__UserGUI.h</FilePath>
+            </File>
+            <File>
+              <FileName>GUIGraph.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SOFTWARE\GUI\GUIGraph.c</FilePath>
+            </File>
+            <File>
+              <FileName>GUIGraph.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\SOFTWARE\GUI\GUIGraph.h</FilePath>
             </File>
           </Files>
         </Group>

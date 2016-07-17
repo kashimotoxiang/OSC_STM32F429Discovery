@@ -60,6 +60,10 @@ unsigned char vu8;
 
 typedef __uIO16 WAVE_TYPE;
 typedef __uIO16 TFT_DISPLAY_TYPE;
+typedef __uIO8 SPI_TYPE;
+
+
+typedef char UART_TYPE;
 
 /*=========================状态定义==============================*/
 //注意初始状态值一定要大于1！！！！！！！！！！！！！！！！
@@ -244,20 +248,21 @@ extern OSC_struct g_OSCInfo;
 extern Page_struct g_DispPage;
 extern Key_struct g_Key;
 extern GUIControl_struct g_GUIControl;
+
+extern void Error_Handler (void);
 /* Includes ------------------------------------------------------------------*/
 
 /*硬件-------------------------------------------------------*/
 #include "System.h"
-#include "mSPI.h"
-//#include "UART.h"
-#include "ADC.h"
-#include "sys.h"
+#include "mySPI.h"
+#include "myUART.h"
+#include "myADC.h"
+#include "myKey.h"
 #include "LCD_MD050SD.h"
 #include "LCD_ILI9341.h"
 /*软件-------------------------------------------------------*/
 #include "Usual.h"
 #include "FSM.h"
-#include "Key.h"
 #include "OSC_Work.h"
 #include "FFT.h"
 /*emWin-------------------------------------------------------*/

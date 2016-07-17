@@ -41,10 +41,9 @@
     <None Include="..\..\HARDWARE\LCD_ILI9341\LCD_ILI9341.h" />
     <None Include="..\..\HARDWARE\LCD_ILI9341\LCD_ILI9341_Graph.h" />
     <None Include="..\..\HARDWARE\LCD_ILI9341\LCD_ILI9341_Touch.h" />
-    <None Include="..\..\HARDWARE\ADC.h" />
-    <None Include="..\..\HARDWARE\Key.h" />
-    <None Include="..\..\HARDWARE\mSPI.h" />
-    <None Include="..\..\HARDWARE\sys.h" />
+    <None Include="..\..\HARDWARE\myADC.h" />
+    <None Include="..\..\HARDWARE\myKey.h" />
+    <None Include="..\..\HARDWARE\mySPI.h" />
     <None Include="..\..\HARDWARE\System.h" />
     <None Include="..\..\SOFTWARE\DebugSupport.h" />
     <None Include="..\..\SOFTWARE\FFT.h" />
@@ -56,7 +55,7 @@
     <None Include="..\..\ENWIN\emWin_Config\LCDConf_FlexColor_Template.h" />
     <None Include="..\..\ENWIN\emWin_Lib\STemWin522_CM4_Keil.lib" />
     <None Include="..\..\SOFTWARE\GUI\GUIDefine.h" />
-    <None Include="..\..\SOFTWARE\GUI\GUIDisp.h" />
+    <None Include="..\..\SOFTWARE\GUI\GUIGraph.h" />
     <None Include="..\..\SOFTWARE\GUI\GUIDraw.h" />
     <None Include="..\..\SOFTWARE\GUI\GUIUsual.h" />
     <None Include="..\..\HARDWARE\STM32F429I-Discovery_BSP\calibration.h" />
@@ -70,6 +69,7 @@
   <ItemGroup>
     <ClCompile Include="..\..\ENWIN\emWin_Config\GUIDRV_Template_BSP.c" />
     <ClCompile Include="..\..\ENWIN\emWin_Config\GUIDRV_Template_ESP.c" />
+    <ClCompile Include="..\..\HARDWARE\myUART.c" />
     <ClCompile Include="..\..\SOFTWARE\GUI\GUINumPad.c" />
     <ClCompile Include="..\..\SOFTWARE\GUI\__UserGUI.c" />
     <ClCompile Include="..\..\Src\stm32f4xx_it.c" />
@@ -106,10 +106,9 @@
     <ClCompile Include="..\..\HARDWARE\LCD_ILI9341\LCD_ILI9341.c" />
     <ClCompile Include="..\..\HARDWARE\LCD_ILI9341\LCD_ILI9341_Graph.c" />
     <ClCompile Include="..\..\HARDWARE\LCD_ILI9341\LCD_ILI9341_Touch.c" />
-    <ClCompile Include="..\..\HARDWARE\ADC.c" />
-    <ClCompile Include="..\..\HARDWARE\Key.c" />
-    <ClCompile Include="..\..\HARDWARE\mSPI.c" />
-    <ClCompile Include="..\..\HARDWARE\sys.c" />
+    <ClCompile Include="..\..\HARDWARE\myADC.c" />
+    <ClCompile Include="..\..\HARDWARE\myKey.c" />
+    <ClCompile Include="..\..\HARDWARE\mySPI.c" />
     <ClCompile Include="..\..\HARDWARE\System.c" />
     <ClCompile Include="..\..\SOFTWARE\DebugSupport.c" />
     <ClCompile Include="..\..\SOFTWARE\FFT.c" />
@@ -120,7 +119,7 @@
     <ClCompile Include="..\..\ENWIN\emWin_Config\GUI_X_Touch_Analog.c" />
     <ClCompile Include="..\..\ENWIN\emWin_Config\GUIConf.c" />
     <ClCompile Include="..\..\ENWIN\emWin_Config\LCDConf_FlexColor_Template.c" />
-    <ClCompile Include="..\..\SOFTWARE\GUI\GUIDisp.c" />
+    <ClCompile Include="..\..\SOFTWARE\GUI\GUIGraph.c" />
     <ClCompile Include="..\..\SOFTWARE\GUI\GUIDraw.c" />
     <ClCompile Include="..\..\SOFTWARE\GUI\GUIUsual.c" />
     <ClCompile Include="..\..\HARDWARE\STM32F429I-Discovery_BSP\calibration.c" />
@@ -696,6 +695,7 @@
   <ItemGroup>
     <ClInclude Include="..\..\ENWIN\emWin_Config\GUIDRV_Template_BSP.h" />
     <ClInclude Include="..\..\ENWIN\emWin_Config\GUIDRV_Template_ESP.h" />
+    <ClInclude Include="..\..\HARDWARE\myUART.h" />
     <ClInclude Include="..\..\SOFTWARE\GUI\GUINumPad.h" />
     <ClInclude Include="..\..\SOFTWARE\GUI\__UserGUI.h" />
     <ClInclude Include="source\BUTTON.h" />
